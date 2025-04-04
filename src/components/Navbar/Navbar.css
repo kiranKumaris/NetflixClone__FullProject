@@ -1,0 +1,230 @@
+/* .navbar {
+  display: flex;
+  padding: 20px 6%;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #e5e5e5;
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.7) 10%,
+    transparent
+  );
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.navbar-left img {
+  width: 90px;
+}
+.navbar-left ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.navbar-left ul li {
+  cursor: pointer;
+}
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.navbar-right .icons {
+  width: 20px;
+  cursor: pointer;
+}
+.navbar-right .profile {
+  width: 35px;
+
+  border-radius: 4px;
+}
+.navbar-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  position: relative;
+}
+.navbar .dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: max-content;
+  background: #191919;
+  padding: 18px 22px;
+  border-radius: 2px;
+  z-index: 1;
+  text-decoration: underline;
+  display: none;
+}
+
+.navbar .dropdown p {
+  font-size: 13px;
+
+  cursor: pointer;
+}
+
+.navbar-profile:hover .dropdown {
+  display: block;
+}
+.nav-dark {
+  background: #141414;
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    padding: 20px 4%;
+  }
+  .navbar img {
+    height: 25px;
+  }
+
+  .navbar-left ul {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .navbar img {
+    height: 20px;
+  }
+
+  .navbar-right {
+    gap: 10px;
+  }
+}
+
+.navbar-right .dark {
+  width: 25px;
+  cursor: pointer;
+} */
+
+.navbar {
+  display: flex;
+  padding: 20px 6%;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #e5e5e5;
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.7) 10%,
+    transparent
+  );
+}
+
+/* Navbar left section */
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.navbar-left img {
+  width: 90px;
+}
+
+.navbar-left ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+/* Added transition for smooth hover effect */
+.navbar-left ul li {
+  cursor: pointer;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Hover effect: change text to white and add glow */
+.navbar-left ul li:hover {
+  color: #ffffff;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
+
+/* Navbar right section */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar-right .icons {
+  width: 20px;
+  cursor: pointer;
+}
+
+.navbar-right .profile {
+  width: 35px;
+  border-radius: 4px;
+}
+
+.navbar-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+/* Dropdown styling */
+.navbar .dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: max-content;
+  background: #191919;
+  padding: 18px 22px;
+  border-radius: 2px;
+  z-index: 1;
+  text-decoration: underline;
+  display: none;
+}
+
+.navbar .dropdown p {
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.navbar-profile:hover .dropdown {
+  display: block;
+}
+
+.nav-dark {
+  background: #141414;
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    padding: 20px 4%;
+  }
+  .navbar img {
+    height: 25px;
+  }
+
+  .navbar-left ul {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar img {
+    height: 20px;
+  }
+
+  .navbar-right {
+    gap: 10px;
+  }
+}
+
+.navbar-right .theme-icon {
+  width: 25px;
+  cursor: pointer;
+}
