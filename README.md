@@ -108,4 +108,4 @@ The Netflix Clone is a modern web application designed to replicate the core fea
 - Dark mode switching themes.
 
 GitHub Repo Link: https://github.com/kiranKumaris/NetflixClone__FullProject
-Website URL on Vercel: https://netflix-clone-full-project-635pytmpv-kirans-projects-92f8a917.vercel.app
+Website URL on Vercel: https://netflix-clone-full-project.vercel.app/
